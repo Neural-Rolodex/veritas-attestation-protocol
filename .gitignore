@@ -1,0 +1,29 @@
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# environment / secrets
+.env
+.env.local
+.env.*.local
+
+# hardhat
+cache/
+artifacts/
+typechain-types/
+
+# sqlite data
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+backend/data/
+
+# local deployment artifacts (committed copies live in contracts/deployments/)
+contracts/deployments/local.json
+contracts/deployments/*.local.json
+
+# misc
+.DS_Store
