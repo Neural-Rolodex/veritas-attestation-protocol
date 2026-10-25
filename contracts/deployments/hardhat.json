@@ -1,0 +1,23 @@
+{
+  "network": "hardhat",
+  "chainId": 31337,
+  "schemaRegistry": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "eas": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+  "impactRegistry": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+  "oracle": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+  "schemas": {
+    "impactBadge": {
+      "uid": "0x2a41650afadc002bf88654915f30dd2c382f76cd75ab2fde39b73c63721a0ef6",
+      "schema": "string repoUrl,string badge,uint256 score,string metadataURI"
+    },
+    "milestone": {
+      "uid": "0x3dd97db3df7c270e00ec4c09e842620333a8b7cdb4c00de265d8a7d1632ace6a",
+      "schema": "string repoUrl,string milestone,uint256 value,string metadataURI"
+    },
+    "dripList": {
+      "uid": "0x80ecf4ce0918194758a5bc344c1ed78a32472feb99bb43a096a2f8f4f3188bd0",
+      "schema": "string metadataURI"
+    }
+  },
+  "deployedAt": "2026-08-11T09:57:37.618Z"
+}
