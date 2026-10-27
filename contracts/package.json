@@ -1,0 +1,22 @@
+{
+  "name": "@veritas-attestation-protocol/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Veritas Attestation Protocol smart contracts (Solidity + Hardhat) integrating with EAS.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:inmem": "hardhat run scripts/deploy.ts --network hardhat",
+    "node:background": "node scripts/start-chain.mjs",
+    "test": "hardhat test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@ethereum-attestation-service/eas-contracts": "1.9.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.3.0",
+    "hardhat": "^2.23.0",
+    "typescript": "^5.8.3"
+  }
+}
